@@ -8,10 +8,10 @@ do
 echo "(to quit press ctrl+c)"
 echo "first number of the range:"
 read -r a
-echo "--------------------------"
 clear
 echo "last number of range:"
 read -r b
+clear
 if [[ $a == $b ]]
 then
 clear
